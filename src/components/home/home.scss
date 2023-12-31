@@ -1,0 +1,42 @@
+.presentationSection {
+    &__leftPart{
+        h2{
+            margin-top: 5rem;
+            color: #000000;
+            font-family: Inter;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80px;
+        }
+        p{
+            color: #7F7D7D;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px;
+        }
+        span{
+            color: #F79F1A;
+        }
+        a{
+            display: flex;
+            width: 249px;
+            padding: 30px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 20px;
+            background: #F79F1A;
+            text-decoration: None;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.5px;
+        }
+    }
+}

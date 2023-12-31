@@ -1,0 +1,57 @@
+.fileredRecipe{
+    padding: 2rem;
+    h1{
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    &__left{
+        padding: 2rem;
+        img{
+            border-radius: 30px;
+        }
+    }
+    &__right{
+        padding: 2rem;
+        h3, h5, h6{
+            color: #000;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700; 
+        }
+        li{
+            color: #000;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+        }
+        .watchVideoButton{
+            color: white;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            background: #F79F1A;
+            display: flex;
+            border-radius: 20px;
+            width: 249px;
+            padding: 30px 40px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border: none;
+        }
+        .watchVideoButton:hover{
+            background-color: #046E1B;
+            transition: 0.4s ease;
+        }
+    }
+}
+
+
+
+
